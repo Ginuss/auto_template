@@ -16,7 +16,7 @@ public class Navigation {
     public ModelAndView test(){
         System.out.println("ffff");
         ModelAndView mav = new ModelAndView("ok");
-        mav.addObject("text","我是导航");
+        mav.addObject("text","我是哈哈哈导航");
         return mav;
     }
 }
