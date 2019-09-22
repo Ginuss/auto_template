@@ -7,31 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a883db3-4f81-47b0-b230-703727a8a0f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gy/controller/Navigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gy/controller/NavigationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gy/mapper/PaintMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gy/mapper/NavigationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gy/pojo/Paint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PaintMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NavigationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ok.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/auto_template/WEB-INF/classes/com/gy/controller/Navigation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/auto_template/WEB-INF/classes/com/gy/mapper/PaintMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/auto_template/WEB-INF/classes/com/gy/pojo/Paint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/auto_template/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/auto_template/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/auto_template/WEB-INF/classes/mapper/PaintMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/auto_template/WEB-INF/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/auto_template/WEB-INF/classes/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/auto_template/WEB-INF/jsp/ok.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/auto_template/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/auto_template/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gy/controller/Navigation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gy/mapper/PaintMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gy/pojo/Paint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/PaintMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gy/controller/NavigationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gy/controller/NavigationController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,6 +38,7 @@
           <entry key="java" value="10" />
           <entry key="js" value="2" />
           <entry key="jsp" value="6" />
+          <entry key="md" value="1" />
           <entry key="properties" value="6" />
           <entry key="xml" value="12" />
         </counts>
@@ -72,6 +51,7 @@
           <entry key="JAVA" value="10" />
           <entry key="JSP" value="6" />
           <entry key="JavaScript" value="2" />
+          <entry key="Markdown" value="1" />
           <entry key="Properties" value="6" />
           <entry key="XML" value="12" />
         </counts>
@@ -83,7 +63,7 @@
           <entry key="java" value="1182" />
           <entry key="jsp" value="43" />
           <entry key="properties" value="17" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="17" />
           <entry key="xml" value="154" />
         </counts>
       </usages-collector>
@@ -92,7 +72,7 @@
           <entry key="HTML" value="2207" />
           <entry key="JAVA" value="1182" />
           <entry key="JSP" value="43" />
-          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="PLAIN_TEXT" value="53" />
           <entry key="Properties" value="17" />
           <entry key="XML" value="154" />
         </counts>
@@ -104,11 +84,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gy/controller/NavigationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="-100">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="258">
+                <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -125,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+            <state relative-caret-position="275">
+              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -181,12 +173,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gy/pojo/Navigation.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/NavigationMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gy/controller/NavigationController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/springMVC.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/html/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gy/controller/NavigationController.java" />
       </list>
     </option>
   </component>
@@ -347,7 +339,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569129613170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569131923946" />
     <property name="last_opened_file_path" value="D:/ggze-2.0.4.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -471,7 +463,7 @@
       <updated>1568873983934</updated>
       <workItem from="1568873987877" duration="8101000" />
       <workItem from="1569054641223" duration="16028000" />
-      <workItem from="1569118924864" duration="6757000" />
+      <workItem from="1569118924864" duration="8397000" />
     </task>
     <task id="LOCAL-00001" summary="ssm">
       <created>1568877362810</created>
@@ -494,15 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568878204513</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="layui动态导航">
+      <created>1569129689822</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569129689822</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30886000" />
+    <option name="totallyTimeSpent" value="32526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1816354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -515,7 +513,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.16453901" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31631204" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -526,7 +524,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.17588653" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -572,7 +570,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ssm" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm" />
+    <MESSAGE value="layui动态导航" />
+    <option name="LAST_COMMIT_MESSAGE" value="layui动态导航" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
@@ -587,6 +586,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -594,6 +598,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -601,6 +608,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -658,16 +673,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/layui.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/layui.all.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gy/controller/NavigationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gy/mapper/NavigationMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -687,8 +692,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        <state relative-caret-position="275">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gy/controller/NavigationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="258">
+            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
