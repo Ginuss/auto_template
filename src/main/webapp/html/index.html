@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/vue.js"></script>
-
     <link rel="stylesheet" href="../layui/css/layui.css"  media="all">
 </head>
 <body>
@@ -14,6 +13,7 @@
         </ul>
     </ul>
 </div>
+<iframe name="mainFrame" id="mainFrame" src="main.html" width="88%" height="850" style="padding-left: 12%" frameborder="0"></iframe>
 </body>
 </html>
 
@@ -30,7 +30,7 @@
     }
     function initMenu(){
         $.ajax({
-            url:"../loadNavigation",
+            url:"/loadNavigation",
             dataType:"json",
             data:{},
             type:"POST",
@@ -52,12 +52,12 @@
         for(var a in list){
             if(list[a].childNav!=null){
                 var dl = $("<dl id="+a+" class=\"layui-nav-child\"></dl>");
-                var li = $("<li class=\"layui-nav-item\"><a href=#>"+list[a].navName+"</li>").append(dl).appendTo(parent);
+                var li = $("<li class=\"layui-nav-item\"><a href=#>"+list[a].navName+"</a></li>").append(dl).appendTo(parent);
                 for(var b in list[a].childNav){
-                    $(li).append($("#"+a).append("<dd><a href="+ list[a].childNav[b].navUrl +">"+list[a].childNav[b].navName+"</dd>")).appendTo(parent);
+                    $(li).append($("#"+a).append("<dd><a target=\"mainFrame\" href="+ list[a].childNav[b].navUrl +">"+list[a].childNav[b].navName+"</dd>")).appendTo(parent);
                 }
             }else{
-                var li = $("<li class=\"layui-nav-item\"><a href="+list[a].navUrl+">"+list[a].navName+"</li>");
+                var li = $("<li class=\"layui-nav-item\"><a target=\"mainFrame\" href="+list[a].navUrl+">"+list[a].navName+"</a></li>");
                 $(li).appendTo(parent);
             }
 

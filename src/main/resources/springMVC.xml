@@ -40,8 +40,8 @@
             class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass"
                   value="org.springframework.web.servlet.view.JstlView" />
-        <property name="prefix" value="/WEB-INF/jsp/" />
-        <property name="suffix" value=".jsp" />
+        <property name="prefix" value="/html/" />
+        <property name="suffix" value=".html" />
     </bean>
 
     <!-- 由于MVC框架会拦截所有有的请求，导致静态资源无法访问，经过如下配置，就可以直接访问静态资源 -->
