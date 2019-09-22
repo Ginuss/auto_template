@@ -18,7 +18,20 @@
                                 expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
-    <mvc:annotation-driven />
+    <!--<mvc:annotation-driven />-->
+    <mvc:annotation-driven>
+        <!-- 指定http返回编码格式，不然返回ajax请求json会出现中文乱码 -->
+        <mvc:message-converters>
+            <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value>text/html;charset=UTF-8</value>
+                        <value>application/json</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
 
     <mvc:default-servlet-handler />
 

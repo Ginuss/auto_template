@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>ok</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/vue.js"></script>
+
+    <link rel="stylesheet" href="../layui/css/layui.css"  media="all">
+</head>
+<body>
+<div>
+    <ul id="ul2" class="layui-nav layui-nav-tree" lay-filter="test">
+        <ul id="ul" class="layui-nav layui-nav-tree layui-nav-side">
+        </ul>
+    </ul>
+</div>
+</body>
+</html>
+
+<script>
+    $(function(){
+        initMenu();
+    });
+    function xuanran() {
+        layui.use('element', function () {
+            var element = layui.element;
+            var layFilter = $("#ul").attr('lay-filter');
+            element.render('ul', layFilter);
+        })
+    }
+    function initMenu(){
+        $.ajax({
+            url:"../loadNavigation",
+            dataType:"json",
+            data:{},
+            type:"POST",
+            success:function (res) {
+                var a = JSON.parse(res);
+                var show = $("#ul");
+                $("#ul").find('span.layui-nav-bar').remove();
+                showall(a,show);
+                xuanran();
+
+            },
+            error:function () {
+
+            }
+        });
+    }
+
+    function showall(list,parent){
+        for(var a in list){
+            if(list[a].childNav!=null){
+                var dl = $("<dl id="+a+" class=\"layui-nav-child\"></dl>");
+                var li = $("<li class=\"layui-nav-item\"><a href=#>"+list[a].navName+"</li>").append(dl).appendTo(parent);
+                for(var b in list[a].childNav){
+                    $(li).append($("#"+a).append("<dd><a href="+ list[a].childNav[b].navUrl +">"+list[a].childNav[b].navName+"</dd>")).appendTo(parent);
+                }
+            }else{
+                var li = $("<li class=\"layui-nav-item\"><a href="+list[a].navUrl+">"+list[a].navName+"</li>");
+                $(li).appendTo(parent);
+            }
+
+
+        }
+
+    }
+
+
+
+</script>
+<!-- 这个地方我也不知道为什么要放在最后加载js文件，但是不放在这页面就不正常加载 -->
+<script src="../layui/layui.all.js"></script>
